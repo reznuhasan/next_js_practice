@@ -5,6 +5,7 @@ const page = () => {
     <div>
       Dashboard Home Content
     </div>
+    
   )
 }
 

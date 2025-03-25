@@ -9,6 +9,7 @@ const DashboardLayout = ({children}) => {
         <Link href="/dashboard/analytics">Analytics</Link>
       </nav>
       {children}
+      
     </div>
   )
 }
