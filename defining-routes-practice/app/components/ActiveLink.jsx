@@ -8,8 +8,9 @@ export default function ActiveLink({path,children}) {
  
     return (
         <div>
-            <Link href={path}  className={pathName === path ? "text-blue-500 font-bold" : ""}
+            <Link href={path}   className={pathName === path ? "text-blue-500 font-bold" : ""}
             >{children}</Link>
+            
         </div>
     )
 }
