@@ -6,6 +6,7 @@ const DashboardLayout = ({children}) => {
     <div>
       <nav className='flex gap-5'>
         <Link href="/dashboard/settings">Settings</Link>
+        <Link href="/dashboard/settings#about">SettingsAbout</Link>
         <Link href="/dashboard/analytics">Analytics</Link>
       </nav>
       {children}
