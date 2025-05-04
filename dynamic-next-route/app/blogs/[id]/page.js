@@ -1,5 +1,9 @@
 import { products } from "@/app/db/data"
 
+export function generateStaticParams(){
+    return products.map(product=>{id:product.id})
+}
+
 const SingleBlog = ({params}) => {
     const findBlog=products.filter(product=>product.id===parseInt(params.id))
     const {name,category,price}=findBlog[0];
