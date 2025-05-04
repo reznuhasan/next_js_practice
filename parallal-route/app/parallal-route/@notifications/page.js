@@ -1,7 +1,8 @@
 import wait from "@/app/lib/wait"
+import Link from "next/link"
 
-const NotificationPage = async() => {
-        await wait(3000)
+const NotificationPage = () => {
+        // await wait(3000)
     
     return (
       <div style={{
@@ -10,9 +11,11 @@ const NotificationPage = async() => {
           display:'flex',
           justifyContent:'center',
           alignItems:'center',
-          border:'1px solid black'
+          border:'1px solid black',
+          gap:10
       }}>
-        <h1>Notifications Page</h1>
+        <h1>All Notifications</h1>
+        <Link href={"parallal-route/seen"} className="text-green-500">seen</Link>
       </div>
     )
   }

@@ -1,7 +1,7 @@
 import wait from "@/app/lib/wait"
 
-const AssigmentPage = async() => {
-    await wait(3000)
+const AssigmentPage = () => {
+    // await wait(3000)
   return (
     <div style={{
         width:'300px',

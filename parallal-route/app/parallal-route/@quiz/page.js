@@ -1,7 +1,7 @@
 import wait from "@/app/lib/wait"
 
-const QuizPage = async() => {
-        await wait(3000)
+const QuizPage = () => {
+        // await wait(3000)
     
     return (
       <div style={{
